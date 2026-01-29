@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le QG Gaming de Nada</title>
+    <link rel="stylesheet" href="style.css"> <style>
+        #setup {
+            background-color: #1a1a1a;
+            padding: 20px;
+            border-left: 5px solid #00d2ff;
+        }
+        .intro-text {
+            font-size: 1.1em;
+            line-height: 1.6;
+            color: #e0e0e0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="profile-container">
+            <img src="avatar.png" alt="Photo de profil" class="profile-pic">
+        </div>
+        <h1>L'UNIVERS GAMING DE Nada</h1>
+        <div id="github-qr">
+            <p>Mon Code QR :</p>
+            <img src="qrcode.png" alt="QR Code Github" width="100">
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#apropos">À Propos</a></li>
+            <li><a href="#top-jeux">Classement</a></li> <li><a href="#actu">Actualités</a></li> 
+            <li><a href="#events">Événements</a></li> <li><a href="#setup">Setup</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="apropos">
+            <article>
+                <h2>Bienvenue dans la Zone</h2>
+                <p class="intro-text">Passionné de technologie et de jeux vidéo depuis mon enfance, je partage ici mon parcours et mon univers gaming.</p>
+            </article>
+        </section>
+        <section id="top-jeux">
+            <h2>🏆 Mon Classement Personnel</h2>
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Rang</th>
+                            <th>Titre du Jeu</th>
+                            <th>Genre</th>
+                            <th>Heures Jouées</th>
+                            <th>Ma Note</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>#1</td>
+                            <td>Genshin Impact</td>
+                            <td>Action RPG / Gacha</td>
+                            <td>2250h+</td>
+                            <td>19.5/20</td>
+                        </tr>
+                        <tr>
+                            <td>#2</td>
+                            <td>Valorant</td>
+                            <td>FPS Tactique</td>
+                            <td>150h+</td>
+                            <td>17/20</td>
+                        </tr>
+                        <tr>
+                            <td>#3</td>
+                            <td>Stardew Valley</td>
+                            <td>Simulation / Farming</td>
+                            <td>190h</td>
+                            <td>16/20</td>
+                        </tr>
+                        <tr>
+                            <td>#4</td>
+                            <td>Zenless Zone Zero</td>
+                            <td>Action</td>
+                            <td>50h</td>
+                            <td>18/20</td>
+                        </tr>
+                        <tr>
+                            <td>#5</td>
+                            <td>The Sims</td>
+                            <td>Simulation </td>
+                            <td>450h+</td>
+                            <td>15/20</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <section id="actu">
+            <h2>🔥 Actualités du moment</h2>
+            <div class="news-grid" style="display: flex; gap: 20px; flex-wrap: wrap;">
+                <article class="news-card">
+                    <img src="news1.jpg" alt="Mise à jour Genshin" style="width: 100%; border-radius: 10px; margin-bottom: 10px;">
+                    <h3>Nouvelle version de Genshin</h3>
+                    <p>Découverte de la nouvelle région et des personnages prévus pour la prochaine bannière.</p>
+                </article>
+                <article class="news-card">
+                    <img src="news2.avif" alt="ZZZ Event" style="width: 100%; border-radius: 10px; margin-bottom: 10px;">
+                    <h3>Zenless Zone Zero : Évent spécial</h3>
+                    <p>Un nouveau défi de combat arrive en ville, préparez vos meilleurs agents !</p>
+                </article>
+            </div>
+        </section>
+        <section id="events">
+            <h2>📅 Calendrier de mes Communautés</h2>
+            <div class="event-box">
+                <p><strong>Genshin Impact :</strong> Festival des lanternes (En cours)</p>
+                <div class="progress-bar-container">
+                    <div class="progress-bar" style="width: 75%; background-color: #00d2ff; height: 10px; border-radius: 5px;"></div>
+                </div>
+                <br>
+                <p><strong>Stardew Valley :</strong> Tournoi communautaire de pêche (Samedi prochain)</p>
+                <p><strong>The Sims :</strong> Défi de construction "Tiny House" sur ma chaîne.</p>
+            </div>
+        </section>
+        <section id="setup">
+            <h2>🖥️ Ma Configuration</h2>
+            <div class="setup-container">
+                <article>
+                    <h3>La Machine</h3>
+                    <p>Pour faire tourner les derniers titres en Ultra, j'utilise une configuration personnalisée axée sur la performance et le refroidissement liquide.</p>
+                </article>
+                <aside>
+                    <h3>Specs Rapides :</h3>
+                    <ul>
+                        <li>GPU: NVIDIA RTX 4070</li>
+                        <li>CPU: Intel Core i7</li>
+                        <li>RAM: 32 Go DDR5</li>
+                    </ul>
+                </aside>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div id="contact">
+            <a href="mailto:nada.essougrati@esi.ac.ma" style="background-color: #00d2ff; color: #000; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">
+                ✉️ Me contacter
+            </a>
+        </div>
+        <p class="copyright">©2026 Nada Essougrati. Tous droits réservés.</p>
+        <pre>
+             _   _           _         _____                                    _   _ 
+            | \ | |         | |       |  ___|                                  | | (_)
+            |  \| | __ _  __| | __ _  | |__ ___ ___  ___  _   _  __ _ _ __ __ _| |_ _ 
+            | . ` |/ _` |/ _` |/ _` | |  __/ __/ __|/ _ \| | | |/ _` | '__/ _` | __| |
+            | |\  | (_| | (_| | (_| | | |__\__ \__ \ (_) | |_| | (_| | | | (_| | |_| |
+            \_| \_/\__,_|\__,_|\__,_| \____/___/___/\___/ \__,_|\__, |_|  \__,_|\__|_|
+                                                                  _/ |                
+                                                                 |___/                 
+        </pre>
+        <a href="#" id="btn-top" title="Haut de page">⬆</a>
+    </footer>
+</body>
+</html>
